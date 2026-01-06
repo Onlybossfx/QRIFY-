@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #101010 0%, #696969 100%);
     min-height: 100vh;
     padding: 20px;
 }
@@ -20,11 +20,17 @@ body {
     overflow: hidden;
     padding: 30px;
 }
+.def{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: 
+}
 
 header {
     text-align: center;
     padding: 30px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #101010 0%, #696969 100%);
     color: white;
     margin: -30px -30px 30px -30px;
     border-radius: 20px 20px 0 0;
@@ -59,12 +65,12 @@ header .subtitle {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    color: #666;
+    color: #808080;
 }
 
 .tab-btn.active {
     background: white;
-    color: #667eea;
+    color: #080808;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
@@ -122,7 +128,7 @@ label {
 
 label i {
     margin-right: 8px;
-    color: #667eea;
+    color: #080808;
 }
 
 textarea, input[type="text"], select {
@@ -167,7 +173,7 @@ input[type="checkbox"] {
 .generate-btn {
     width: 100%;
     padding: 16px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #080808;
     color: white;
     border: none;
     border-radius: 10px;
@@ -228,7 +234,7 @@ input[type="checkbox"] {
 }
 
 .download-btn {
-    background: #28a745;
+    background: #080808;
     color: white;
 }
 
@@ -237,7 +243,7 @@ input[type="checkbox"] {
 }
 
 .share-btn {
-    background: #17a2b8;
+    background: #808080;
     color: white;
 }
 
